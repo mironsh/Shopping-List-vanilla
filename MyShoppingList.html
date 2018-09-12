@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App - shopping list</title>
+    <script type="application/javascript" src="MyShoppingList.js"></script>
+    <script type="application/javascript">
+        function init() {
+            const listElm = document.querySelectorAll("#shopping-app ul.shopping-list")[0];
+            document.list = new myShoppingList(listElm);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="MyShoppingList.css">
+</head>
+<body onload="{init();}">
+<div id="shopping-app">
+    <h1>My Shopping List</h1>
+    <ul class="shopping-list">
+    </ul>
+    <form>
+        <div class="inputs">
+            <input id="input" type="text" placeholder="Add shopping items here">
+            <button onclick="document.list.addItem(event)">Add</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

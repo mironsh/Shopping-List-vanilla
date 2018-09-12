@@ -1,0 +1,48 @@
+#shopping-app {
+    width: 600px;
+    margin: 150px auto;
+    padding: 20px;
+    box-shadow: 2px 4px 8px 2px #888888;
+}
+
+#shopping-app h1 {
+    margin-top: 0;
+}
+
+#shopping-app ul.shopping-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#shopping-app ul.shopping-list li {
+    padding: 10px 5px;
+    border: 1px solid #E5E5E5;
+    border-bottom: none;
+}
+
+#shopping-app ul.shopping-list li span {
+    text-transform: capitalize;
+}
+
+#shopping-app ul.shopping-list li button {
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#shopping-app .inputs {
+    padding: 15px;
+    background: #E0E0E7;
+}
+#shopping-app .inputs input {
+    width: 80%;
+    line-height: 20px;
+    padding-left: 5px;
+}
+
+#shopping-app .inputs button {
+    width: 15%;
+    height: 25px;
+    margin-left: 5px;
+}
